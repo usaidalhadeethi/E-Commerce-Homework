@@ -1,0 +1,16 @@
+server:
+  port: 9998
+spring:
+  application:
+    name: trendyol_odevi
+  datasource:
+    url: jdbc:mysql://localhost:3306/java15
+    username: root
+    password: 20042004
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  main:
+    allow-circular-references: true
